@@ -1,0 +1,23 @@
+{
+  "name": "m33-yargs",
+  "version": "1.0.0",
+  "description": "app for code nation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BenjaminGordonCody/m33-yargs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BenjaminGordonCody/m33-yargs/issues"
+  },
+  "homepage": "https://github.com/BenjaminGordonCody/m33-yargs#readme",
+  "dependencies": {
+    "yargs": "^17.3.1"
+  }
+}
