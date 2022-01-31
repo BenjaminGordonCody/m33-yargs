@@ -15,18 +15,19 @@ class Movie {
 
 const addMany = (args) => {
   if (args.entries > 9) {
+    console.log("Max input is 9 movies");
   }
   const allMovieKeys = Object.keys(args);
 
   for (let i = 1; i < args.entries + 1; i++) {
-    const movieIObject = {};
+    const movieIAttributes = {};
     allMovieKeys.forEach((element) => {
       if (element.includes(i)) {
         const newKey = element.slice(0, -1); //strip identifying digit
-        movieIObject[newKey] = args[element];
+        movieIAttributes[newKey] = args[element];
       }
     });
-    const movieI = new Movie(movieIObject);
+    const movieI = new Movie(movieIAttributes);
     movieI.add();
   }
 };
